@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box; /* pour que les bordures soient a l'interieur*/
+    padding: 0;
+    margin: 0;
+}
+/*ul{
+    list-style: none;
+}
+a{  color: white;
+}
+
+
+
+ */
+.logo{
+  padding:0px 50px;
+  font-size: 30px;
+  line-height:80px; /*mjmooo3 al tool =80 OLKETBA FLWEST*/
+  ;
+}
+header{
+    background-color: blue;
+    height:80px;
+    width:100%;
+    position:fixed;
+    /* display:flex;
+    justify-content: space-between; */
+}
+nav{
+    display: flex;
+    align-content: center;
+}
+nav ul  {
+    margin-left: 300px;
+    display: flex;
+    margin-right:20px ;
+}
+nav ul li {
+    margin-right: 30px;
+    list-style: none;
+    line-height: 80px;
+    color: aliceblue;
+} 
+nav ul li a{
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 5px;
+    border-radius:3px;
+    border: solid white 1.5px;
+    text-transform: uppercase;
+}
+a.my:hover{
+    background-color: rgb(6, 80, 228);
+}
+/*
+div.cont_1{
+   background-image:url("./laptop.png");
+   height: 100vh;
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+}*/
+html{
+    background-image:url("./laptop.png");
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+}
+section {
+    margin-top:80px;
+    }
+section h2{
+    padding: 100px;
+    color: aliceblue;
+    font-family:Cursive;
+    text-align:center;
+}
